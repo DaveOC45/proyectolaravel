@@ -18,3 +18,9 @@ php artisan migrate /*Esto se utilizza para ejecutar a base de datos*/
 
 ### pa poner en el controller 
 use Illuminate\Support\Facades\DB;
+
+### crear enlace simbolico que apunta a la carpeta storage
+
+```
+php artisan storage:link
+```
